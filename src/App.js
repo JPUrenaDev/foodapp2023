@@ -82,7 +82,7 @@ function App() {
     return (
       <div>
         <CantidadResultado cantidad={data.length} />
-        <h1>Resultados🥓</h1>
+        <h1>Resultados Recientes🥓</h1>
         <div className="prueba48">
           {data.map((valor) => (
             <ListFoodContainer key={valor.idMeal} data={valor} />
