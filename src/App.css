@@ -1,0 +1,150 @@
+.mainbar {
+  background-color: orange;
+  width: 100%;
+  height: 50px;
+}
+
+.titulo {
+  font-size: 15px;
+
+  padding-bottom: 20px;
+
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.mainMenu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.searchInput {
+  height: 20px;
+  margin-left: 60px;
+  margin-top: 30px;
+  border-radius: 100px;
+  width: 20%;
+  justify-content: center;
+  margin-right: 70px;
+}
+
+.searchBar {
+  background-color: darkcyan;
+  margin-left: 20px;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.buscame {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.SearchAndContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foodContainer {
+  margin-right: 40px;
+  background-color: darkcyan;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+  text-shadow: 3px;
+}
+
+.tagResultadosgotten {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 340px;
+  color: black;
+}
+
+.imagenes {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.moreDetails {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botonDetail {
+  height: 30px;
+  margin-top: 30px;
+}
+
+.nameMeal {
+}
+
+/*
+.pruebaHorizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.blockImage {
+  flex: 0 0 calc(33.33% - 10px); Tamaño de cada elemento con margen 
+  margin: 5px; /* Espacio entre los elementos 
+  /* Otros estilos, como altura, relleno, etc. 
+}
+
+
+*/
+
+.imagenPortada {
+  background-image: url("../public/imagen.PNG"); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño para cubrir completamente el contenedor */
+  background-position: center; /* Centra la imagen */
+  width: 100%; /* O ajusta el ancho según tus necesidades */
+  height: 40vh; /* O ajusta la altura según tus necesidades */
+}
+
+.textoPrincipal {
+  text-align: center;
+}
+
+.ElementosPortada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ... Otros estilos ... */
+
+/* ... Otros estilos ... */
+
+/* ... Otros estilos ... */
+
+.prueba48 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Comienza desde el borde izquierdo */
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px; /* Tamaño máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.prueba49 {
+  flex: 0 0 calc(20% - 20px); /* Tamaño de cada elemento, restando el margen */
+  margin: 10px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+  height: auto; /* Ajustar la altura automáticamente según el contenido */
+}
+
+.prueba49 img {
+  max-width: 100%; /* Establece el ancho máximo de la imagen */
+  height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+  margin-top: 10px; /* Agrega un poco de espacio superior */
+}
